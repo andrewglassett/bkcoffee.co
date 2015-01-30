@@ -1,0 +1,32 @@
+@import '_settings'
+
+normalize-css()
+base()
+
+body
+  padding: 0px
+
+#intro
+  bg: '/img/bg.jpg' no-repeat center center fixed
+  background-size: cover
+  text-align: center
+  margin: 0 auto
+  padding: 10% 0
+  color: white
+  h1
+    font-size: 4em
+  p
+    font-size: 2em
+
+#products
+  .title
+    text-align: center
+    background: blue
+  .product
+    margin: 4em 0
+    center(800px)
+    background: green
+    .image
+      col(1/2)
+    .description
+      col(1/2)
