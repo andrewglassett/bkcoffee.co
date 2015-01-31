@@ -5,6 +5,8 @@ base()
 
 body
   padding: 0px
+img
+  max-width: 100%
 
 #intro
   bg: '/img/bg.jpg' no-repeat center center fixed
@@ -24,9 +26,14 @@ body
     background: blue
   .product
     margin: 4em 0
-    center(800px)
+    center(1200px)
     background: green
     .image
       col(1/2)
+      +below(700px)
+        col()
     .description
       col(1/2)
+      +below(700px)
+        col()
+        padding:2em
