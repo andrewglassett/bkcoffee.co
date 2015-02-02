@@ -9,7 +9,7 @@ img
   max-width: 100%
 
 #intro
-  bg: '/img/bg.jpg' no-repeat center center fixed
+  bg: '/img/bg.jpg' no-repeat center -150px fixed
   background-size: cover
   text-align: center
   margin: 0 auto
@@ -20,20 +20,60 @@ img
   p
     font-size: 2em
 
-#products
-  .title
-    text-align: center
-    background: blue
-  .product
-    margin: 4em 0
+#mission
+  background: #3398a7
+  text-align: center
+  padding: 15em 0
+  .text
+    center(700px)
+    h2
+      margin: 0 auto
+      font-size: 3em
+      color: white
+    p
+      font-size: 2em
+      color: white
+
+
+
+#step1
+  background: green
+  .step1
     center(1200px)
-    background: green
-    .image
-      col(1/2)
+    .title
+      text-align: center
+      h3
+        font-size: 4em
+
+    .product
+      margin: 4em 0
+      background: black
+      col(1/3)
       +below(700px)
         col()
-    .description
-      col(1/2)
+      .image
+        .description
+            padding:2em
+
+#step2
+  background: blue
+  .step2
+    center(1200px)
+    .title
+      text-align: center
+      h3
+        font-size: 4em
+
+    .product
+      margin: 4em 0
+      background: black
+      col(1/3)
       +below(700px)
         col()
-        padding:2em
+      .image
+        .description
+            padding:2em
+
+
+#footer
+  center(1200px)
