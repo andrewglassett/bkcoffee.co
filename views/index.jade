@@ -2,57 +2,51 @@ extends layout
 
 block content
   #intro
-    h1 BK COFFEE CO
-    :markdown
-      A smooth taste for happy times
-  #mission
-    .text
-      h2 Our mission
-      p Give customers customizable small batch flavor with a consistent experience.
-  #step1
-    .step1
-      .title
-        h3 Step 1: Choose Your Buzz
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Original Cold Brew
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Half Caff Cold Brew
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Low Caff Cold Brew
-        
-  #step2
-    .step2
-      .title
-        h3 Step 1: Choose Your Buzz
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Original Cold Brew
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Half Caff Cold Brew
-      .product
-        .image
-          img(src="../img/coffee.jpg")
-          .description
-            h3 Low Caff Cold Brew
-            
-    
-    //- #footer
-    //-   .social
-    //-     ul 
-    //-       li Instagram
-    //-       li Facebook
-    //-       li Twitter
+    .intro
+      img(src='../img/logo.svg')
+      :markdown
+        The cold brew coffee that turns the control to you.
+  #statement
+    .statement
+      h2 We live in a customizable world.
+      p Our customers are dynamic. They want more choices, and our mission is to provide them with options you may not see in other places.  
+  #products
+    .title
+      h2 Products
+  
+    .product
+      .image
+        img(src="../img/coffee.jpg")
+      .description
+        h3 Original Cold Brew
+        p Our original blend of beans from the Blue Mountains of Jamaica are lightly roasted to keep as much natural caffeine as possible. They are then cold brewed and gently pressed to retain all of that island flavor. You will find this brew to be herbaceous and floral. It is not for the faint of heart though, it will keep you buzzin' for hours. 
+    .product
+      .image
+        img(src="../img/coffee.jpg")
+      .description
+        h3 Half Caff Cold Brew
+        p This is where things get interesting. The Half Caff is our signature blend of roasted beans from Africa, and paired with a decaffenated variety from Taiwan. It is warm and rich, with nutty highlights. It is the perfect beverage to enjoy if you need a subtle boost in the afternoon.
+    .product
+      .image
+        img(src="../img/coffee.jpg")
+      .description
+        h3 Low Caff Cold Brew
+        p Our Low Caff variety brings the best of both worlds: A full bodied flavor without the caffeine buzz. Our Taiwanese blend has been roasted to perfection and then processed without the use of harsh chemicals to make an enjoyable experience for everyone. Drink this one anytime you need a refreshing beverage without worrying about it keeping you up at night.
+
+  #app
+    h2 Ordering App
+    img(src="../img/app.jpg")
+  #enjoy
+    h2 They Enjoy How They Want To
+  #footer
+    .social
+      ul
+        li
+          a(href='//instagram.com/bkcoffeeco')
+            img(src='../img/instagram.svg')
+        li
+          a(href='//twitter.com/bkcoffeeco')
+            img(src='../img/twitter.svg')
+        li
+          a(href='//facebook.com/bkcoffeeco')
+            img(src='../img/facebook.svg')
